@@ -1,9 +1,9 @@
 01/08
 _____________
-### 1. HelloWorld<br>
-	https://github.com/WonSik36/webappcamp/blob/master/WebContent/index.jsp
+### 1. HelloWorld
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/index.jsp
 ### 2. JSP Tutorial
-* JSP Scripting Elements
+* JSP Scripting Elements<br>
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/form.jsp
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/request.jsp
 * 9 Implicit Objects
