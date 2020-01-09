@@ -34,7 +34,7 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/index.jsp
 ------------
 
 # 01/09
-###JSP Directive Elements
+### JSP Directive Elements
 * Page Directives<br>
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageDirective.jsp
 * Include Directives<br>
