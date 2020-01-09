@@ -31,5 +31,13 @@
 	<context-param>
 		<param-name>dname</param-name>
 		<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
-	</context-param>  
+	</context-param>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>http://localhost/Hello/mytags</taglib-uri>
+			<taglib-location>/WEB-INF/numberformatter.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+
 </web-app>
