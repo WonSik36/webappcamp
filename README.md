@@ -51,3 +51,21 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageDirective.jsp
 ### Exception
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/notfound.jsp
+
+### JSP Action Elements
+* Forward<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionForward.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionForward_handle.jsp
+* Include<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionInclude.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionInclude_handle.jsp
+* JavaBean<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionUseBean.jsp
+https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/beans/Calculator.java
+* Property<br>
+https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/beans/User.java
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionProperty.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionProperty_handle.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySession.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySession_handle1.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySession_handle2.jsp
