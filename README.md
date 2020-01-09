@@ -47,3 +47,6 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageDirective.jsp
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/numberformatter.tld
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/taglibDirective.jsp
+* Exception
+	https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
+	https://github.com/WonSik36/webappcamp/blob/master/WebContent/notfound.jsp
