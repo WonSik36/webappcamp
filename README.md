@@ -3,34 +3,35 @@
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/index.jsp
 ### 2. JSP Tutorial
 * JSP Scripting Elements<br>
-	https://github.com/WonSik36/webappcamp/blob/master/WebContent/form.jsp
-	https://github.com/WonSik36/webappcamp/blob/master/WebContent/request.jsp
+	https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/form.jsp
+	https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/request.jsp
 * 9 Implicit Objects
 	* Request<br>
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/form.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/request.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/form.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/request.jsp
 	* Response<br>
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/response.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/response.jsp
 	* Config<br>
 		https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/config.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/config.jsp
 	* Application<br>
 		https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/application.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/application.jsp
 	* Session<br>
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/session_write_name.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/session_set.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/session_get.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/session_write_name.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/session_set.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/session_get.jsp
 	* PageContext<br>
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageContext_write_name.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageContext_set.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageContext_get.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/pageContext_write_name.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/pageContext_set.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/pageContext_get.jsp
 	* Page<br>
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/page.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/page.jsp
 	* Exception<br>
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/exception_write.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/exception_throw.jsp
-		https://github.com/WonSik36/webappcamp/blob/master/WebContent/exception.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/exception_write.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/exception_throw.jsp
+		https://github.com/WonSik36/webappcamp/blob/master/WebContent/implicit_obj/exception.jsp
+		
 ------------
 
 # 01/09
@@ -54,51 +55,83 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/notfound.jsp
 
 ### JSP Action Elements
 * Forward<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionForward.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionForward_handle.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionForward.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionForward_handle.jsp
 * Include<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionInclude.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionInclude_handle.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionInclude.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionInclude_handle.jsp
 * JavaBean<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionUseBean.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionUseBean.jsp
 https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/beans/Calculator.java
 * Property<br>
 https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/beans/User.java
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionProperty.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionProperty_handle.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySession.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySession_handle1.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySession_handle2.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionProperty.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionProperty_handle.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionPropertySession.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionPropertySession_handle1.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/action/actionPropertySession_handle2.jsp
 
 ### JSP Expression Language
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/expressionLanguage_input.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/expressionLanguage_handle.jsp
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/expressionLanguage_output.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/el/expressionLanguage_input.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/el/expressionLanguage_handle.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/el/expressionLanguage_output.jsp
 ------------
 
 # 01/10
 ### JSTL Core Tags
 * c:out<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_out.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_out.jsp
 * c:import<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_import.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_import.jsp
 * c:set<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_set.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_set.jsp
 * c:remove<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_remove.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_remove.jsp
 * c:catch<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_catch.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_catch.jsp
 * c:if<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_if.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_if.jsp
 * c:choose, c:when, c:otherwise<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_choose.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_choose.jsp
 * c:forEach<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_forEach.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_forEach.jsp
 * c:forTokens<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_forToken.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_forToken.jsp
 * c:param<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_param.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_param.jsp
 * c:redirect<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_redirect.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_redirect.jsp
 * c:url<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_url.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/core/c_url.jsp
+
+### JSTL Function Tags
+* fn:contains<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_contains.jsp
+* fn:containsIgnoreCase<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_contains_ignorecase.jsp
+* fn:endsWith<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_endsWith.jsp
+* fn:escapeXml<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_escapeXml.jsp
+* fn:indexOf<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_indexOf.jsp
+* fn:trim<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_trim.jsp
+* fn:startsWtih<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_startsWtih.jsp
+* fn:split<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_split.jsp
+* fn:toLowerCase<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_toLowerCase.jsp
+* fn:toUpperCase<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_toUpperCase.jsp
+* fn:substring<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_substring.jsp
+* fn:substringAfter<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_substringAfter.jsp
+* fn:substringBefore<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_substringBefore.jsp
+* fn:length<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_length.jsp
+* fn:replace<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_replace.jsp

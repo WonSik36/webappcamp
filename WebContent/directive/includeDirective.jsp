@@ -9,10 +9,10 @@
 </head>
 <body>
 <div class="container">
-<%@ include file="resources/header.html" %>
+<%@ include file="/resources/header.html" %>
 	<h3>This page is about include directives</h3>
 </div>
-<%@ include file="resources/footer.html" %>
-<%@ include file="resources/script.html" %>
+<%@ include file="/resources/footer.html" %>
+<%@ include file="/resources/script.html" %>
 </body>
 </html>

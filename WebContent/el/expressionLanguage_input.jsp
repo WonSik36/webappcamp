@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-	<%@ include file="resources/header.html" %>
+	<%@ include file="/resources/header.html" %>
 		<div>
 			<h3>회원 정보를 입력하세요</h3>
 			<form action="expressionLanguage_handle.jsp" method="post">
@@ -31,7 +31,7 @@
 			</form>
 		</div>
 	</div>
-<%@ include file="resources/footer.html" %>
-<%@ include file="resources/script.html" %>
+<%@ include file="/resources/footer.html" %>
+<%@ include file="/resources/script.html" %>
 </body>
 </html>

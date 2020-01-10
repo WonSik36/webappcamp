@@ -9,14 +9,14 @@
 </head>
 <body>
 <div class="container">
-	<%@ include file="resources/header.html" %>
+	<%@ include file="/resources/header.html" %>
 	<div>
 		<h1>Name: ${member.name}</h1>
 		<h1>Age: ${member.age}</h1>
 		<h1>E-mail: ${member.email}</h1>
 	</div>
 </div>
-<%@ include file="resources/footer.html" %>
-<%@ include file="resources/script.html" %>
+<%@ include file="/resources/footer.html" %>
+<%@ include file="/resources/script.html" %>
 </body>
 </html>
