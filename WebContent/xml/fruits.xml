@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fruits>
+	<fruit>
+		<name>Apple</name>
+		<price>40/kg</price>
+	</fruit>
+	<fruit>
+		<name>Grape</name>
+		<price>30/kg</price>
+	</fruit>
+	<fruit>
+		<name>Orange</name>
+		<price>90/kg</price>
+	</fruit>
+</fruits>

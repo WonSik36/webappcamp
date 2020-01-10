@@ -76,6 +76,7 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/el/expressionLangu
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/el/expressionLanguage_handle.jsp
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/el/expressionLanguage_output.jsp
 
+
 ------------
 
 # 01/10
@@ -155,3 +156,23 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/setBundle.jsp
 * fmt:formatDate<br>
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/formatDate.jsp
 
+### JSTL XML Tags
+* x:out<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/out.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/fruits.xml
+* x:parse<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/parse.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/novels.xml
+* x:set<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/set.jsp
+* x:choose<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/choose.jsp
+* x:if<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/if.jsp
+* x:transform<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/transform.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/transform.xml
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/transform.xsl
+* x:param<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/param.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/xml/param.xsl
