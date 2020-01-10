@@ -37,9 +37,9 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/index.jsp
 # 01/09
 ### JSP Directive Elements
 * Page Directives<br>
-https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageDirective.jsp
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/directive/pageDirective.jsp
 * Include Directives<br>
-	https://github.com/WonSik36/webappcamp/blob/master/WebContent/includeDirective.jsp
+	https://github.com/WonSik36/webappcamp/blob/master/WebContent/directive/includeDirective.jsp
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/resources/script.html
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/resources/header.html
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/resources/footer.html
@@ -47,7 +47,7 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/pageDirective.jsp
 	https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/tags/NumberFormatterTag.java
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/numberformatter.tld
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
-	https://github.com/WonSik36/webappcamp/blob/master/WebContent/taglibDirective.jsp
+	https://github.com/WonSik36/webappcamp/blob/master/WebContent/directive/taglibDirective.jsp
 
 ### Exception
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/WEB-INF/web.xml
@@ -135,3 +135,22 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_substr
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_length.jsp
 * fn:replace<br>
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/function/fn_replace.jsp
+
+### JSTL Format Tags
+* fmt:parseNumber<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/parseNumber.jsp
+* fmt:timeZone<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/setTimeZone.jsp
+* fmt:formatNumber<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/formatNumber.jsp
+* fmt:parseDate<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/parseDate.jsp
+* fmt:bundle<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/bundle.jsp
+* fmt:setTimeZone<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/setTimeZone.jsp
+* fmt:setBundle, fmt:message<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/setBundle.jsp
+* fmt:formatDate<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/fmt/formatDate.jsp
+
