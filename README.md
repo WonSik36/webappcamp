@@ -74,3 +74,31 @@ https://github.com/WonSik36/webappcamp/blob/master/WebContent/actionPropertySess
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/expressionLanguage_input.jsp
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/expressionLanguage_handle.jsp
 https://github.com/WonSik36/webappcamp/blob/master/WebContent/expressionLanguage_output.jsp
+------------
+
+# 01/10
+### JSTL Core Tags
+* c:out<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_out.jsp
+* c:import<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_import.jsp
+* c:set<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_set.jsp
+* c:remove<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_remove.jsp
+* c:catch<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_catch.jsp
+* c:if<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_if.jsp
+* c:choose, c:when, c:otherwise<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_choose.jsp
+* c:forEach<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_forEach.jsp
+* c:forTokens<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_forToken.jsp
+* c:param<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_param.jsp
+* c:redirect<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_redirect.jsp
+* c:url<br>
+https://github.com/WonSik36/webappcamp/blob/master/WebContent/c_url.jsp
