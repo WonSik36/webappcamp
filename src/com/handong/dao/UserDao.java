@@ -56,12 +56,12 @@ public class UserDao {
         }
     }
     
-    public int delete(User user) {
+    public int delete(String id) {
     	String sql = "DELETE FROM user WHERE userId=?";
     	
     	try {
     		PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1,user.getUserID());
+            pstmt.setString(1,id);
             return pstmt.executeUpdate();	// return 1
         }
         catch(SQLException e) {

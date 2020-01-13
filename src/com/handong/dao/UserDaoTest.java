@@ -2,6 +2,7 @@ package com.handong.dao;
 
 import java.util.ArrayList;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.Matchers.is;
@@ -19,35 +20,35 @@ public class UserDaoTest {
 		User u1 = new User();
 		u1.setUserID("id1");
 		u1.setUserPassword("pw1");
-		u1.setUserEmail("email1");
+		u1.setUserEmail("email1@example.com");
 		u1.setUserName("name1");
 		u1.setUserGender("m");
 		
 		User u2 = new User();
 		u2.setUserID("id2");
 		u2.setUserPassword("pw2");
-		u2.setUserEmail("email2");
+		u2.setUserEmail("email2@example.com");
 		u2.setUserName("name2");
 		u2.setUserGender("f");
 		
 		User u3 = new User();
 		u3.setUserID("id3");
 		u3.setUserPassword("pw3");
-		u3.setUserEmail("email3");
+		u3.setUserEmail("email3@example.com");
 		u3.setUserName("name3");
 		u3.setUserGender("m");
 		
 		User u4 = new User();
 		u4.setUserID("id4");
 		u4.setUserPassword("pw4");
-		u4.setUserEmail("email4");
+		u4.setUserEmail("email4@example.com");
 		u4.setUserName("name4");
 		u4.setUserGender("f");
 		
 		User u5 = new User();
 		u5.setUserID("id5");
 		u5.setUserPassword("pw5");
-		u5.setUserEmail("email5");
+		u5.setUserEmail("email5@example.com");
 		u5.setUserName("name5");
 		u5.setUserGender("m");
 		
@@ -95,7 +96,7 @@ public class UserDaoTest {
 		
 		User u = list.get(0);
 		list.remove(0);
-		userDao.delete(u);
+		userDao.delete(u.getUserID());
 		
 		ArrayList<User> dbList = userDao.searchAll();
 		
@@ -116,5 +117,55 @@ public class UserDaoTest {
 		assertThat(u1.getUserName(), is(u2.getUserName()));
 		assertThat(u1.getUserEmail(), is(u2.getUserEmail()));
 		assertThat(u1.getUserGender(), is(u2.getUserGender()));
+	}
+	
+	@AfterAll
+	public static void afterAll() {
+		User u1 = new User();
+		u1.setUserID("id1");
+		u1.setUserPassword("pw1");
+		u1.setUserEmail("email1@example.com");
+		u1.setUserName("name1");
+		u1.setUserGender("m");
+		
+		User u2 = new User();
+		u2.setUserID("id2");
+		u2.setUserPassword("pw2");
+		u2.setUserEmail("email2@example.com");
+		u2.setUserName("name2");
+		u2.setUserGender("f");
+		
+		User u3 = new User();
+		u3.setUserID("id3");
+		u3.setUserPassword("pw3");
+		u3.setUserEmail("email3@example.com");
+		u3.setUserName("name3");
+		u3.setUserGender("m");
+		
+		User u4 = new User();
+		u4.setUserID("id4");
+		u4.setUserPassword("pw4");
+		u4.setUserEmail("email4@example.com");
+		u4.setUserName("name4");
+		u4.setUserGender("f");
+		
+		User u5 = new User();
+		u5.setUserID("id5");
+		u5.setUserPassword("pw5");
+		u5.setUserEmail("email5@example.com");
+		u5.setUserName("name5");
+		u5.setUserGender("m");
+		
+		ArrayList<User> l = new ArrayList<User>();
+		l.add(u1);
+		l.add(u2);
+		l.add(u3);
+		l.add(u4);
+		l.add(u5);
+		
+		UserDao ud = new UserDao(); 
+		for(User u:l) {
+			ud.join(u);
+		}
 	}
 }
