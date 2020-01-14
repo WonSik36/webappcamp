@@ -11,15 +11,7 @@ public class UserDao {
 	private Connection conn;
     
     public UserDao() {
-        try {
-            String dbURL="jdbc:mysql://localhost/wintercamp2020";                             
-            String dbID="root";
-            String dbPassword="tmfl3fkdzk4";
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            conn= DriverManager.getConnection(dbURL,dbID,dbPassword);
-        }catch(SQLException|ClassNotFoundException e) {
-        	throw new RuntimeException(e);
-        }
+    	conn= ConnectionProvider.getCon();
     }
     
     public int join(User user) {
@@ -128,6 +120,26 @@ public class UserDao {
             }
             
             return list;
+        }
+        catch(SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    
+    public boolean login(String id, String pw) {
+    	String sql = "SELECT * FROM user WHERE userID=? AND userPassword=?";
+    	
+    	try {
+    		PreparedStatement pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1,id);
+            pstmt.setString(2,pw);
+            ResultSet rs = pstmt.executeQuery();
+            
+            if(rs.next()) {
+            	return true;
+            }else {
+            	return false;
+            }
         }
         catch(SQLException e) {
             throw new RuntimeException(e);
