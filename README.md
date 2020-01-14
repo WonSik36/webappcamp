@@ -228,3 +228,17 @@ https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/dao/UserDaoTe
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/intensive/main.jsp
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/intensive/lookup_file.jsp
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/intensive/result.jsp
+	
+### 실습 화면
+* 메인 화면
+	![메인화면]()
+* 로그인
+	![로그인]()
+* 로그아웃
+	![로그아웃]()
+* 사용자 정보 수정
+	![사용자 정보 수정]()
+* 사용자 삭제
+	![사용자 삭제]()
+* 사용자 이미지 검색
+	![사용자 이미지 검색]()
