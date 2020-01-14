@@ -230,15 +230,21 @@ https://github.com/WonSik36/webappcamp/tree/master/src/com/handong/dao/UserDaoTe
 	https://github.com/WonSik36/webappcamp/blob/master/WebContent/intensive/result.jsp
 	
 ### 실습 화면
-* 메인 화면
-	![메인화면]()
-* 로그인
-	![로그인]()
-* 로그아웃
-	![로그아웃]()
-* 사용자 정보 수정
-	![사용자 정보 수정]()
-* 사용자 삭제
-	![사용자 삭제]()
-* 사용자 이미지 검색
-	![사용자 이미지 검색]()
+* 메인 화면<br>
+	![메인화면](https://github.com/WonSik36/webappcamp/blob/master/images/main.PNG)<br>
+* 로그인<br>
+	![로그인](https://github.com/WonSik36/webappcamp/blob/master/images/login_page.PNG)<br>
+	![로그인 성공](https://github.com/WonSik36/webappcamp/blob/master/images/login_success.PNG)<br>
+* 로그아웃<br>
+	![로그아웃](https://github.com/WonSik36/webappcamp/blob/master/images/logout_page.PNG)<br>
+* 사용자 정보 수정<br>
+	![사용자 정보 수정](https://github.com/WonSik36/webappcamp/blob/master/images/edit_user.PNG)<br>
+* 사용자 삭제<br>
+	![사용자 삭제](https://github.com/WonSik36/webappcamp/blob/master/images/delete_success.PNG)<br>
+	![사용자 삭제 성공](https://github.com/WonSik36/webappcamp/blob/master/images/delete_after.PNG)<br>
+* 파일 업로드<br>
+	![사용자 이미지 검색](https://github.com/WonSik36/webappcamp/blob/master/images/file.PNG)<br>
+	![업로드 성공](https://github.com/WonSik36/webappcamp/blob/master/images/upload_success.PNG)<br>
+	![업로드 결과](https://github.com/WonSik36/webappcamp/blob/master/images/upload_after.PNG)<br>
+* 파일 다운로드<br>
+	![다운로드 성공](https://github.com/WonSik36/webappcamp/blob/master/images/download_success.PNG)
